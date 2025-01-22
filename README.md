@@ -3,7 +3,7 @@
 Just a simple tool that generates collisions for CSP trees. You need .NET8 installed. If you dont, you should get prompted to install it.
 
 1) Launch and select your trees.txt
-2) Copy the content of `treecollider.txt` (created next to your trees.txt) into your csp config.
+2) Copy the content of `treecollider.txt` (created next to your trees.txt) into your surfaces.ini file.
 
 Alternatively (and preferrably) you can include it into your `surfaces.ini` at the top like this:
 
