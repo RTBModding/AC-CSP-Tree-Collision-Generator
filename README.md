@@ -5,10 +5,10 @@ Just a simple tool that generates collisions for CSP trees. You need .NET8 insta
 1) Launch and select your trees.txt
 2) Copy the content of `treecollider.txt` (created next to your trees.txt) into your csp config.
 
-Alternatively (and preferrably) you can include it into your `ext_config.ini` like this:
+Alternatively (and preferrably) you can include it into your `surfaces.ini` at the top like this:
 
 ```ini
-[INCLUDE: /trees/treecollider.txt]
+[INCLUDE: ../extension/trees/treecollider.txt]
 ```
 It saves you the hassle of always copying edited content in your config and just includes the entire file.
 
