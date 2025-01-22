@@ -5,13 +5,15 @@ Just a simple tool that generates collisions for CSP trees. You need .NET8 insta
 1) Launch and select your trees.txt
 2) Copy the content of `treecollider.txt` (created next to your trees.txt) into your csp config.
 
-Alternatively (and preferrably) you can include it into your config like this:
+Alternatively (and preferrably) you can include it into your `ext_config.ini` like this:
 
 ```ini
 [INCLUDE: /trees/treecollider.txt]
 ```
 It saves you the hassle of always copying edited content in your config and just includes the entire file.
 
+
+## NOTE:
 Make sure to add `WAV_PITCH=extended-0` to your first surface in surfaces.ini, for example:
 
 ```ini
